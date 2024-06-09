@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v126/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.SOLIDO{
+  color: black !important;
+  background-color: rgb(180, 180, 180);
+  rotate: 90; 
+  background-repeat: no-repeat, repeat;  color: white;
+  border:hidden;
+}
+.ROCHOSO{
+  background-color: rgb(39, 78, 129);
+  color: white;
+  border:hidden;
+}
+.ARENOSO{
+  background-color: rgb(199, 170, 90);
+  color: white;
+  border:hidden;
+}
+.PANTANO{
+  background-color: mediumseagreen;
+  color: white;
+  border:hidden;
+}
+.PAREDE {
+  background-image: url('./PAREDE.png');
+  background-repeat: no-repeat, repeat;
+}
+.CASA{
+  background-image: url('./CASA.png');
+  background-repeat: no-repeat, repeat;
+}
+.LIVRE{
+  background-color: rgb(255, 255, 255);
+  background-repeat: no-repeat, repeat;
+}
+.ATOR{
+  background-color: white;
+  color:white;
+  background-image: url('./person.png');
+  background-repeat: no-repeat, repeat;
+}
+.ROTA{
+  background-color: hidden;
+  border: 1px solid;
+  border-radius: 75rem;
+  border-color: green!important;
+}

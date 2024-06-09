@@ -1,0 +1,25 @@
+{
+    "clients": [
+        {
+            "name": "localhost:3000",
+            "logo": "",
+            "homologacao": true,
+            "proxyPrefix": "localhost"
+        },
+        {
+            "name": "",
+            "logo": "",
+            "homologacao": false,
+            "proxyPrefix": ""
+        },
+        {
+            "name": "",
+            "logo": "",
+            "homologacao": true,
+            "proxyPrefix": ""
+        }
+    ],
+    "global": {
+        "title": " Buscas "
+    } 
+}
